@@ -1,0 +1,27 @@
+.btn-primary{
+	background-color: #000000;
+}
+
+#services{
+	background-color: #000000;
+	color: #FFFFFF;
+}
+
+p{
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+}
+
+#services img{
+	max-width: 100%;
+}
+
+header.masthead {
+    background-image: url("../img/header-bg.jpg");
+}
+
+section h3.section-subheading {
+	font-size: 30px;
+	color: white;
+	font-style: normal;
+  }
