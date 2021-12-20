@@ -251,7 +251,7 @@ ctrl+f för att snabbt hitta de platser du behöver ändra på.-->
       //Skriver någon in MeDDelande och då använder versaler kommer texten som sparas att ändå att bli meddelande.
       //Det gör det lättare att berätta vilket alteranativ som är rätt eftersom
       //vi inte behöver ta hänsyn till gemenser/versaler.
-      var answer = document.forms["contactForm"]["answer"].value.toLowerCase();
+      var answer = document.forms["contactForm"]["answer"].value.toLowerCase().trim();
       
       /*Genom att ändra det som står mellan dessa tecken "" kan du välja vad som är rätt svar 
       Viktigt! Skriv svaret med små bokstäver.
